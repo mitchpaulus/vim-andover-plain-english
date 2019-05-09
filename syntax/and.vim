@@ -699,5 +699,5 @@ syntax keyword Constant white
 syntax keyword Constant White
 
 
-let b:current_syntax="automatedlogic"
+let b:current_syntax="and"
 
