@@ -11,7 +11,8 @@ syntax match Comment "\v'.*$"
 
 syntax keyword Constant On Off True False
 
-syntax match Identifier "\v^[a-zA-Z0-9_]+\ze:"
+" This matches the labels at the beginning of the line
+syntax match Identifier "\v^[a-zA-Z0-9_.]+\ze:"
 
 syntax match Function "\v[a-zA-Z]+\ze\("
 
