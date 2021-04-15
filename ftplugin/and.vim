@@ -1,1 +1,3 @@
 setlocal nospell
+
+set iskeyword+=.
