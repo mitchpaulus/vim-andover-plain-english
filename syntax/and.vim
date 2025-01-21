@@ -14,7 +14,7 @@ syntax keyword Constant On Off True False
 " This matches the labels at the beginning of the line
 syntax match Identifier "\v^[a-zA-Z0-9_.]+\ze:"
 
-syntax match Function "\v[a-zA-Z]+\ze\("
+syntax match Function "\v[a-zA-Z][a-zA-Z0-9_.]*\ze\("
 
 " The tables seem to be missing some keywords.
 syntax keyword Statement ENDIF Endif endif EndIf Start start START
@@ -701,4 +701,3 @@ syntax keyword Constant White
 
 
 let b:current_syntax="and"
-
